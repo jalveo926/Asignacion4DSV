@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(190, 137, 68);
+}
+
+main{
+    background-color: azure;
+    flex: 1;
+    padding: 20px 400px;
+
+}
+.Titulo{
+display: flex;
+flex-direction: column;
+text-align: center;
+border: 1px solid black;
+
+}
+
+.Navegacion{
+margin: auto;
+}
+
+
+ul{
+ display: flex;
+ flex-direction: row;
+ gap: 4rem;
+ list-style:circle;
+ margin: auto;
+}
+
+a{ text-decoration:none;
+    color: black;
+}
+
+footer{
+    display: flex;
+}
