@@ -1,5 +1,36 @@
-/* Estilos específicos para la página Deportivas */
+/* --- Navegación principal --- */
+.navegacion {
+  background-color: #004a99;
+  text-align: center;
+  padding: 10px 0;
+}
 
+.navegacion ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.navegacion li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navegacion a {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.navegacion a:hover {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+/* Estilos específicos para la página Deportivas */
 main {
   margin-top: 30px;
 }
