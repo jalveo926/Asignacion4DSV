@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../Estilos/common.css">
+    <link rel="stylesheet" href="../Estilos/contacto.css">
+    <title>Contáctanos</title>
 </head>
 <body>
-    
+    <header> 
+    </header>
+    <main>
+        <!--Aquí inician las secciones de los integrantes para que cada uno tenga su información-->
+        <section class="integranteInfo">
+            <img src="../images/Alveo.jpg" alt="Foto de alveo">
+            <!--Este div nos ayuda a dividr la sección en 2 hacer que la información esté a la derecha de imagen-->
+            <div class="infoDerecha">
+                <h2>Jesús Alveo</h2>
+                <p>Soy Jesús Alveo, tengo 20 años, me gusta la programación, el anime,videojuegos,gimnasio y voleyball.</p>
+                    <ul>
+                        <li>Jesús Alveo</li>
+                        <li>8-1025-316</li>
+                        <li>1GS123</li>
+                        <li>Desarrollo y Gestión de Software</li>
+                    </ul>
+            </div>
+            
+        
+        </section>
+        <section class="integranteInfo">
+            <img src="../images/Roniel.jpeg" alt="Foto de Roniel">
+            <div class="infoDerecha">
+                <h2>Roniel Quintero</h2>
+                <p>Soy Roniel Quintero, tengo 19 años y me gusta jugar volleyball, ver anime y jugar videojuegos.</p>
+                <ul>
+                    <li>Roniel Quintero</li>
+                    <li>8-1037-904</li>
+                    <li>1GS123</li>
+                    <li>Desarrollo y Gestión de Software</li>
+                </ul>
+            </div>
+           
+        </section> 
+        <section class="integranteInfo">
+            <img src="../images/Daniel.jpeg" alt="Foto de Daniel">
+            <div class="infoDerecha">
+                <h2>Daniel Smith</h2>
+                <p>Soy Daniel, tengo 19 años, Estudiante de software con honores, experto en base de datos y full stack con 5 años de experiencia.</p>
+                <ul>
+                    <li>Daniel Smith</li>
+                    <li>8-1017-473</li>
+                    <li>1GS123</li>
+                    <li>Desarrollo y Gestión de Software</li>
+                </ul>
+            </div>
+           
+        </section>
+        
+
+    </main>
+    <footer>
+        <ul>
+            <b> <!--La lista de opciones disponibles en el footer de la página-->
+                <li><a href="">Preguntas frecuentes</a></li>
+                <li><a href="">privacidad</a></li>
+                <li><a href="">Conoce más de nosotros</a></li>
+                <li>
+                <!--El label se vincula con el ID al objeto para que salga con el, para el DROPDOWN de los idiomas-->
+                <label for="opciones">Idioma</label>
+                <select id="opciones">
+                    <option value="Esp" selected>Español</option>
+                    <option value="Ing">Inglés</option>
+                </select>
+            </li>
+            </b>
+           
+        </ul>
+        <p>Por Jesús Alveo, Daniel Smith, Roniel Quintero</p>
+        <p> 2025</p>
+    </footer>
 </body>
 </html>

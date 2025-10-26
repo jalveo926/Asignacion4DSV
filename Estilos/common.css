@@ -33,4 +33,29 @@ a:hover {
   color: #003d80;
 }
 
+/* Estilos para el footer */
+footer {
+    background: #2e7d32;
+    color: #f0f0e1;
+    padding: 10px;
+    text-align: center;
+}
 
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: #a5d6a7;
+    text-decoration: none;
+}
+
+footer li{
+    padding: 2px;
+}
+
+footer a:hover {
+    color: #2d2a32;
+    text-decoration: underline;
+}
