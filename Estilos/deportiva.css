@@ -1,0 +1,57 @@
+/* Estilos específicos para la página Deportivas */
+
+main {
+  margin-top: 30px;
+}
+
+.noticia {
+  background-color: #e6f2ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.noticia h2 {
+  color: #004a99;
+  font-family: 'Menlo', monospace;
+  margin-bottom: 10px;
+}
+
+.noticia img {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 10px auto;
+}
+
+.noticia p {
+  font-weight: bold;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+/* Footer igual que en home */
+footer {
+  background-color: #003366;
+  padding: 10px 40px;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.footer-nav li {
+  margin: 5px 0;
+}
+
+.footer-nav a {
+  color: #a9c3e8;
+  font-size: 13px;
+  font-weight: normal;
+}
