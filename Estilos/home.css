@@ -1,21 +1,8 @@
-/* Estilos específicos para la página de inicio */
-
 header {
   background-color: #004a99;
   color: white;
   text-align: center;
-  padding: 10px;
-}
-
-.banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-.logo {
-  width: 100px;
+  padding: 0px;
 }
 
 .navegacion ul {
