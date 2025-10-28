@@ -46,6 +46,7 @@ main {
 
 .video h2 {
   color: #004a99;
+  font-weight: bold;
   font-family: 'Menlo', monospace;
   margin-bottom: 10px;
 }

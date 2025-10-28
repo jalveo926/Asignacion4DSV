@@ -49,6 +49,7 @@ main {
 
 .noticia h2 {
   color: #004a99;
+  font-weight: bold;
   text-transform: uppercase;
   font-size: 20px;
   margin-bottom: 10px;
